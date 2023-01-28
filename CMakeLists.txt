@@ -36,6 +36,7 @@ ADD_LIBRARY(blkid-tiny SHARED
 		libblkid-tiny/squashfs.c
 		libblkid-tiny/btrfs.c
 		libblkid-tiny/f2fs.c
+		libblkid-tiny/xfs.c
 		)
 INSTALL(TARGETS blkid-tiny LIBRARY DESTINATION lib)
 INSTALL(FILES libblkid-tiny/libblkid-tiny.h DESTINATION include)
