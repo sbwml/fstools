@@ -190,6 +190,7 @@ static const struct blkid_idinfo *idinfos[] =
 	&f2fs_idinfo,
 	&xfs_idinfo,
 	&xfs_log_idinfo,
+	&exfat_idinfo,
 };
 
 int probe_block(char *block, struct blkid_struct_probe *pr)
